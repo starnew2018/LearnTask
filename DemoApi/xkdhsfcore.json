@@ -1,0 +1,14 @@
+﻿{
+  "AppSettings": [
+    {
+      "Key": "ConfigCenterUrl",
+      "Value": "http://config-xkd.xkd.com",
+      "Description": "配置中心服务器地址"
+    },
+    {
+      "Key": "ConfigVersionKey",
+      "Value": "c4bbcbf2e794426ba27e9161e71a8031",
+      "Description": "配置版本"
+    }
+  ]
+}

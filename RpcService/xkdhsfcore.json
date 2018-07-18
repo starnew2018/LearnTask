@@ -1,0 +1,26 @@
+﻿{
+  "AppSettings": [
+    {
+      "Key": "ConfigCenterUrl",
+      "Value": "http://config-xkd.xkd.com",
+      "Description": "配置中心服务器地址"
+    },
+    {
+      "Key": "ConfigVersionKey",
+      "Value": "c4bbcbf2e794426ba27e9161e71a8031",
+      "Description": "配置版本"
+    },
+    {
+      "Key": "dbcontext",
+      "Value": "Data Source=192.168.11.89;port=3306;Initial Catalog=xkdtest1;user id=xkd;password=zSwdrMA6B6J9w62R;Connect Timeout=120000;Convert Zero Datetime=True",
+      "Description": "mysql数据库连接字符串"
+    }
+  ],
+  "IocSettings": [
+    {
+      "Type": "Rpc.IProvider.ITestProvider,Rpc.IProvider",
+      "Service": "Rpc.Provider.TestProvider,Rpc.Provider",
+      "LiftTime": "tran"
+    }
+  ]
+}

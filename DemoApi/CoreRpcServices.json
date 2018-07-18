@@ -1,0 +1,12 @@
+﻿[
+  {
+    "Ip": "localhost:6709",
+    "RpcName": "微信服务测试RPC",
+    "Contracts": [
+      {
+        "IfacName": "Rpc.Contract.ITestService",
+        "IfacDesc": "测试接口"
+      }
+    ]
+  }
+]

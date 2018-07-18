@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Rpc.Contract\Rpc.Contract.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Hsf.NetCore.Config.SDK">
+      <HintPath>..\lib\Hsf.NetCore.Config.SDK.dll</HintPath>
+    </Reference>
+    <Reference Include="Hsf.NetCore.Rpc.Client">
+      <HintPath>..\lib\Hsf.NetCore.Rpc.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Hsf.NetCore.Rpc.Common">
+      <HintPath>..\lib\Hsf.NetCore.Rpc.Common.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="xkdhsfcore.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>
