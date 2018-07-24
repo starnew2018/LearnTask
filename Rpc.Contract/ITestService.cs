@@ -15,7 +15,6 @@ namespace Rpc.Contract
 
         RpcResponse<List<TestModelDto>> GetDataList(int pageIndex, int pageSize);
 
-        RpcResponse<bool> AddData(TestModelDto model);
 
         RpcResponse<bool> UpdateData(TestModelDto model);
 
